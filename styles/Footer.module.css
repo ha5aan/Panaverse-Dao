@@ -1,0 +1,41 @@
+.NavbarBackground{
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+    height: 3rem;
+    margin-bottom: 0px;
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 4%;
+    /* padding-bottom:60px; */
+
+}
+.tabMenu{
+    /* border: 1px solid red; */
+    /* padding: 1%; */
+    cursor: pointer;
+    /* border-radius: 20px; */
+    /* width: 1%; */
+   /* margin-right: 2%; */
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+.tabMenu{
+    /* border: 1px solid red; */
+    padding: 1%;
+
+
+
+    width: 70%;
+    text-align: center;
+    font-size: small;
+    
+}
+}

@@ -1,0 +1,32 @@
+.NavbarBackground{
+    background-color: rgb(233, 231, 231);
+}
+.tabMenu{
+    /* border: 1px solid red; */
+    padding: 1%;
+    border-right: 1px solid maroon;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+    
+}
+.tabMenu:hover{
+    background-color:rgba(128, 0, 0, 0.075);
+    box-shadow: 1px 1px 10px lightgray;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+
+.tabMenu{
+    /* border: 1px solid red; */
+    padding: 1%;
+    border-right: 1px solid maroon;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    font-size: small;
+    
+}
+}
