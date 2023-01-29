@@ -22,8 +22,8 @@ export default function Home() {
     
     <HomePicture/>
     <CourseContent/>
-    <Outcomes/>
-    {/* <RelevantLinks/> */}
+    {/* <Outcomes/> */}
+    <RelevantLinks/>
    
     </>
   )
