@@ -5,7 +5,7 @@ import styles from "../../styles/CoursePage.module.css"
 const CourseContent = () => {
   return (
     <Box>
-        {/* <Container className={styles.courseHeading}  textAlign={"center"} fontFamily={"sans-serif"}> */}
+     
 <Heading fontSize={"5xl"} className={styles.courseHeading}  mb={"2%"} mt={"1%"}><Fade> The Program in Nutshell</Fade></Heading>
         {/* </Container> */}
         <Container maxWidth={"4xl"} fontSize="xl" fontWeight={"medium"}>
