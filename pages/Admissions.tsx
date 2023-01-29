@@ -27,7 +27,7 @@ This curriculum is intended for beginners who want to learn software development
 </Fade>
 <Fade delay={400}>
 <Container maxWidth={"2xl"} mt={"2%"}>
-<Heading fontSize={"xl"}> For admissions click here :<br/> <Link   href={"https://www.piaic.org/"} > <Container textAlign={"center"}><Button mt={"2%"} width={100} bg={"#FF6666"} color={"black"}> Apply</Button></Container> </Link>  </Heading>
+<Heading fontSize={"xl"}> For admissions click here :<hr/> <Link   href={"https://www.piaic.org/"} > <Container textAlign={"center"}><Button mt={"2%"} width={100} bg={"#FF6666"} color={"black"}> Apply</Button></Container> </Link>  </Heading>
 </Container>
 </Fade>
    </Box>

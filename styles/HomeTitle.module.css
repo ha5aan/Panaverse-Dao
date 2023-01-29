@@ -2,10 +2,8 @@
     background-image: url("/HomePAge.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-border: 1px solid blue;
     background-position: top;
 margin: 0px;
-height: calc(80vh);
 /* height: 50000%; */
 
 }
