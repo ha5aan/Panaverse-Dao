@@ -16,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/panaverse.png" />
       </Head>
     
+    <HomePicture/>
 
-   
     </>
   )
 }
