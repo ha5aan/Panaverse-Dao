@@ -16,10 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-    {/* <HomePicture/> */}
-    {/* <CourseContent/> */}
-    {/* <Outcomes/> */}
-    {/* <RelevantLinks/> */}
+    <HomePicture/>
+    <CourseContent/>
+    <Outcomes/>
+    <RelevantLinks/>
    
     </>
   )
