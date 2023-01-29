@@ -17,7 +17,10 @@ export default function Home() {
       </Head>
     
     <HomePicture/>
-
+    <CourseContent/>
+    <Outcomes/>
+    <RelevantLinks/>
+   
     </>
   )
 }
