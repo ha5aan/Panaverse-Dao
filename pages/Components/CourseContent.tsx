@@ -6,10 +6,10 @@ const CourseContent = () => {
   return (
     <Box>
      
-<Heading fontSize={"5xl"} className={styles.courseHeading}  mb={"2%"} mt={"1%"}><Fade> The Program in Nutshell</Fade></Heading>
+<Heading fontSize={"5xl"} className={styles.courseHeading}  mb={"2%"} mt={"1%"}><Fade  triggerOnce={true}> The Program in Nutshell</Fade></Heading>
         {/* </Container> */}
         <Container maxWidth={"4xl"} fontSize="xl" fontWeight={"medium"}>
-      <Fade> In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.</Fade> 
+      <Fade  triggerOnce={true}> In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.</Fade> 
         </Container>
         <Flex mx={"10%"} mt={"2%"} justifyContent={"space-around"} wrap={"wrap"}>
             <Box mx={"2%"} my={"1%"} >
