@@ -1,9 +1,9 @@
 import Head from 'next/head'
+import CourseContent from './Components/CourseContent'
+import HomePicture from './Components/HomePicture'
+import Outcomes from './Components/Outcomes'
+import RelevantLinks from './Components/RelevantLinks'
 
-import HomePicture from './Components/HomePicture..jsx'
-import CourseContent from './Components/CourseContent.jsx'
-import Outcomes from './Components/Outcomes..jsx'
-import RelevantLinks from './Components/RelevantLinks..jsx'
 
 
 export default function Home() {
@@ -16,10 +16,10 @@ export default function Home() {
         <link rel="icon" href="/panaverse.png" />
       </Head>
     
-    <HomePicture/>
-    <CourseContent/>
-    <Outcomes/>
-    <RelevantLinks/>
+<HomePicture/>
+<CourseContent/>
+<Outcomes/>
+<RelevantLinks/>
    
     </>
   )

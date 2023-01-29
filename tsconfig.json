@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Components/HomePicture..jsx", "pages/Components/CourseContent.jsx", "pages/Components/Outcomes..jsx", "pages/Components/RelevantLinks..jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Components/HomePicture.jsx", "pages/Components/CourseContent.tsx", "pages/Components/Outcomes..jsx", "pages/Components/RelevantLinks..jsx", "pages/_app.jsx", "pages/index..jsx"],
   "exclude": ["node_modules"]
 }
