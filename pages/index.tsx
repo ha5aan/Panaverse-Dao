@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import HomePicture from './Components/HomePicture'
-import CourseContent from './Components/CourseContent'
-import Outcomes from './Components/Outcomes'
-import RelevantLinks from './Components/RelevantLinks'
+import HomePicture from './Components/HomePicture..jsx'
+import CourseContent from './Components/CourseContent.jsx'
+import Outcomes from './Components/Outcomes..jsx'
+import RelevantLinks from './Components/RelevantLinks..jsx'
 
 
 export default function Home() {
