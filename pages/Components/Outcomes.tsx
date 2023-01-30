@@ -22,7 +22,36 @@ const Outcomes = () => {
    <  >
    <Container  maxWidth={"4xl"} mt={"2%"}>
    <List spacing={3}>
-  
+   <ListItem>
+    <ListIcon as={AiOutlineFire} color='maroon' />
+     <Link href={"https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"} target="_blank" >Top 5 `Metaverse` jobs that will rule the future of tech industry 
+     </Link>
+  </ListItem>
+  <ListItem>
+    <ListIcon as={AiOutlineFire} color='maroon' />
+   <Link href={"https://web3.career/web3-salaries/blockchain-developer"} target="_blank"> Blockchain Developer Salary - Jun 2022 </Link> 
+    </ListItem>
+  <ListItem>
+    <ListIcon as={AiOutlineFire} color='maroon' />
+    <Link href={"https://thedefiant.io/web3-soaring-salaries/"} target="_blank">
+    Web3 Salaries Soar to $750,000 for Rank-and-File Devs
+    </Link>
+</ListItem>
+  {/* You can also use custom icons from react-icons */}
+  <ListItem>
+    <ListIcon as={AiOutlineFire} color='maroon' />
+    <Link href={"https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"} target="_blank">
+    The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet`s Uncharted Waters
+    </Link>
+</ListItem>
+
+<ListItem>
+    <ListIcon as={AiOutlineFire} color='maroon' />
+    <Link href={"https://www.blockchain-council.org/metaverse/how-to-become-metaverse-developer/"} target="_blank">
+    How To Become Metaverse Developer: Scope, Skills, and Salary
+    </Link>
+
+</ListItem>
 </List>
 </Container>
 </>
