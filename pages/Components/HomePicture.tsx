@@ -9,7 +9,7 @@ const HomePicture = () => {
         <Flex justifyContent={"space-between"}>
                 <Box className={styles.mainHeadingSet}  >
         <Heading fontSize={["xs","xs","xl","4xl","5xl"]}>
-<Slide> Certified Web3 and Metaverse Developer </Slide>
+<> Certified Web3 and Metaverse Developer </>
         </Heading>
         </Box>
 
@@ -17,7 +17,7 @@ const HomePicture = () => {
 
         <Box className={styles.mainHeadingSet}  >
         <Heading fontSize={["xs","xs","xl","4xl","5xl"]}>
-       <Slide direction='right'> In Karachi, Lahore, Islamabad, and Peshawar </Slide>       </Heading>
+       < > In Karachi, Lahore, Islamabad, and Peshawar </>       </Heading>
         </Box>
         </Flex>
         

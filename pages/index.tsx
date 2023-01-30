@@ -4,7 +4,6 @@ import HomePicture from './Components/HomePicture'
 
 
 
-
 export default function Home() {
   return (
     <>

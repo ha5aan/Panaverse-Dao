@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Components/HomePicture.tsx", "pages/Components/CourseContent.tsx", "pages/Components/Outcomes.tsx", "pages/Components/RelevantLinks..tsx", "pages/_app.tsx", "pages/index..tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Components/HomePicture.tsx", "pages/Components/CourseContent.tsx", "pages/Components/Outcomes.tsx", "pages/Components/RelevantLinks.tsx"],
   "exclude": ["node_modules"]
 }
