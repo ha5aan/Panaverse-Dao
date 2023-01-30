@@ -12,13 +12,12 @@ const HomePicture = () => {
 <> Certified Web3 and Metaverse Developer </>
         </Heading>
         </Box>
-{/*
 
 
         <Box className={styles.mainHeadingSet}  >
         <Heading fontSize={["xs","xs","xl","4xl","5xl"]}>
        < > In Karachi, Lahore, Islamabad, and Peshawar </>       </Heading>
-        </Box>*/}
+        </Box>
         </Flex> 
         
      </Box>
