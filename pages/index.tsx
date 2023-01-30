@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import CourseContent from './Components/CourseContent'
  import HomePicture from './Components/HomePicture'
+import Outcomes from './Components/Outcomes'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
     
 <HomePicture/>
 <CourseContent/>
+<Outcomes/>
 
    
     </>
