@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import CourseContent from './Components/CourseContent'
-import HomePicture from './Components/HomePicture'
+// import HomePicture from './Components/HomePicture'
 
 
 
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/panaverse.png" />
       </Head>
     
-<HomePicture/>
+{/* <HomePicture/> */}
 <CourseContent/>
 
    
