@@ -13,7 +13,7 @@ const CourseContent = () => {
         </Container>
         <Flex mx={"10%"} mt={"2%"} justifyContent={"space-around"} wrap={"wrap"}>
             <Box mx={"2%"} my={"1%"} >
-              <Slide triggerOnce={true} >       
+              <  >       
                  <Box className={styles.FlipCard}>
                   
   <Box className={styles.FlipCardInner}>
@@ -28,14 +28,14 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
-</Slide>
+</>
 
 </Box>
 
 
 
 <Box mx={"2%"} my={"1%"}>
-  <Slide direction='right' triggerOnce={true}>
+  <>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -51,13 +51,13 @@ const CourseContent = () => {
   </Box>
   
 </Box>
-</Slide>
+</>
 
 
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <Slide triggerOnce={true}>
+  <>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -73,12 +73,12 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
-</Slide>
+</>
 
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <Slide direction='right' triggerOnce={true}>
+  <>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner} >
     <Box className={styles.FlipCardFront}>
@@ -92,7 +92,7 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
-</Slide>
+</>
 
 
 </Box>
