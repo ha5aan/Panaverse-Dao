@@ -3,7 +3,7 @@ import Head from 'next/head'
 import HomePicture from './Components/HomePicture'
 import CourseContent from './Components/CourseContent'
 import Outcomes from './Components/Outcomes'
-import RelevantLinks from './Components/RelevantLinks.tsx'
+import RelevantLinks from './Components/RelevantLinks'
 
 
 export default function Home() {
