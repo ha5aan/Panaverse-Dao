@@ -29,16 +29,21 @@ const Outcomes = () => {
      </Link>
   </ListItem>
   </Fade>
+  <Fade>
   <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
    <Link href={"https://web3.career/web3-salaries/blockchain-developer"} target="_blank"> Blockchain Developer Salary - Jun 2022 </Link> 
     </ListItem>
+    </Fade>
+    <Fade>
   <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
     <Link href={"https://thedefiant.io/web3-soaring-salaries/"} target="_blank">
     Web3 Salaries Soar to $750,000 for Rank-and-File Devs
     </Link>
 </ListItem>
+</Fade>
+<Fade>
   {/* You can also use custom icons from react-icons */}
   <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
@@ -46,7 +51,8 @@ const Outcomes = () => {
     The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet`s Uncharted Waters
     </Link>
 </ListItem>
-
+</Fade>
+<Fade>
 <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
     <Link href={"https://www.blockchain-council.org/metaverse/how-to-become-metaverse-developer/"} target="_blank">
@@ -54,6 +60,7 @@ const Outcomes = () => {
     </Link>
 
 </ListItem>
+</Fade>
 </List>
 </Container>
 
