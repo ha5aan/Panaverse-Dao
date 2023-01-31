@@ -12,21 +12,23 @@ const Outcomes = () => {
   return (
     <Box mt={"3%"}>
         <Container mb={"2%"} textAlign={"center"}>
-             <Heading> Outcomes </Heading>
+           <Fade>  <Heading> Outcomes </Heading> </Fade>
         </Container>
-        < >
+        <Fade>
    <Container  maxWidth={"4xl"} fontSize="md" fontWeight={"medium"}>
    The graduates of this program will own products (Full-Stack App Templates, AR and VR Experiences, and APIs) that are marketed globally by the Panaverse DAO and, if they like, will also be able to start off by offering services at a rate of <Text as={"b"} > $50 </Text>per hour <Text as={"b"}> ($96,000 per year) </Text>. This would give Pakistani professionals and students a fantastic opportunity to better their financial situation while also giving the economy a much-needed boost by expanding software exports.
    </Container>
-   </>
-   <  >
+   </Fade>
+   
    <Container  maxWidth={"4xl"} mt={"2%"}>
    <List spacing={3}>
+    <Fade>
    <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
      <Link href={"https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"} target="_blank" >Top 5 `Metaverse` jobs that will rule the future of tech industry 
      </Link>
   </ListItem>
+  </Fade>
   <ListItem>
     <ListIcon as={AiOutlineFire} color='maroon' />
    <Link href={"https://web3.career/web3-salaries/blockchain-developer"} target="_blank"> Blockchain Developer Salary - Jun 2022 </Link> 
@@ -54,7 +56,7 @@ const Outcomes = () => {
 </ListItem>
 </List>
 </Container>
-</>
+
     </Box>
   )
 }
