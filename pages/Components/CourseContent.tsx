@@ -18,7 +18,7 @@ const CourseContent = () => {
           
             <Box mx={"2%"} my={"1%"} >
               <  >       
-              <Slide>
+              <Slide triggerOnce={true}>
                  <Box className={styles.FlipCard}>
                   
   <Box className={styles.FlipCardInner}>
@@ -41,7 +41,7 @@ const CourseContent = () => {
 
 
 <Box mx={"2%"} my={"1%"}>
-  <Slide direction='right'  triggerOnce={true}>
+  <Slide direction='right'  triggerOnce={true} >
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
