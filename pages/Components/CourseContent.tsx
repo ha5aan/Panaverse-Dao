@@ -1,6 +1,6 @@
 import { Container,Box,Heading,Flex } from '@chakra-ui/react'
 import React from 'react'
-import { Fade, Slide } from 'react-awesome-reveal'
+import { Fade,Slide } from 'react-awesome-reveal'
 import styles from "../../styles/CoursePage.module.css"
 const CourseContent = () => {
   return (
@@ -15,8 +15,10 @@ const CourseContent = () => {
         </Container>
         </Fade>
         <Flex mx={"10%"} mt={"2%"} justifyContent={"space-around"} wrap={"wrap"}>
+          
             <Box mx={"2%"} my={"1%"} >
               <  >       
+              <Slide>
                  <Box className={styles.FlipCard}>
                   
   <Box className={styles.FlipCardInner}>
@@ -31,14 +33,15 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
+</Slide>
 </>
+
 
 </Box>
 
 
-
 <Box mx={"2%"} my={"1%"}>
-  <>
+  <Slide direction='right'>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -54,13 +57,13 @@ const CourseContent = () => {
   </Box>
   
 </Box>
-</>
+</Slide>
 
 
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <>
+  <Slide>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -76,12 +79,12 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
-</>
+</Slide>
 
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <>
+  <Slide direction='right'>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner} >
     <Box className={styles.FlipCardFront}>
@@ -95,7 +98,7 @@ const CourseContent = () => {
     </Box>
   </Box>
 </Box>
-</>
+</Slide>
 
 
 </Box>
