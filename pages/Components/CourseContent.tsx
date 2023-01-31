@@ -5,12 +5,15 @@ import styles from "../../styles/CoursePage.module.css"
 const CourseContent = () => {
   return (
     <Box>
-     
+     <Fade>
 <Heading fontSize={"5xl"} className={styles.courseHeading}  mb={"2%"} mt={"1%"}><> The Program in Nutshell</></Heading>
+</Fade>
         {/* </Container> */}
+        <Fade>
         <Container maxWidth={"4xl"} fontSize="xl" fontWeight={"medium"}>
       < > In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.</> 
         </Container>
+        </Fade>
         <Flex mx={"10%"} mt={"2%"} justifyContent={"space-around"} wrap={"wrap"}>
             <Box mx={"2%"} my={"1%"} >
               <  >       
@@ -82,15 +85,13 @@ const CourseContent = () => {
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner} >
     <Box className={styles.FlipCardFront}>
-      <Fade>  <Heading fontSize={"2xl"} padding={"3%"} textAlign={"center"} marginTop={"13%"}>
+        <Heading fontSize={"2xl"} padding={"3%"} textAlign={"center"} marginTop={"13%"}>
         Ambient Computing and IoT Specialization
       </Heading>
-      </Fade>
     </Box>
     <Box className={styles.FlipCardBack} >
-    <Fade>
      <Container className={styles.backContent}>
-     The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter and Embedded Devices.     </Container> </Fade>
+     The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter and Embedded Devices.     </Container>
     </Box>
   </Box>
 </Box>
