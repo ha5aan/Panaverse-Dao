@@ -82,13 +82,15 @@ const CourseContent = () => {
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner} >
     <Box className={styles.FlipCardFront}>
-        <Heading fontSize={"2xl"} padding={"3%"} textAlign={"center"} marginTop={"13%"}>
+      <Fade>  <Heading fontSize={"2xl"} padding={"3%"} textAlign={"center"} marginTop={"13%"}>
         Ambient Computing and IoT Specialization
       </Heading>
+      </Fade>
     </Box>
     <Box className={styles.FlipCardBack} >
+    <Fade>
      <Container className={styles.backContent}>
-     The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter and Embedded Devices.     </Container>
+     The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter and Embedded Devices.     </Container> </Fade>
     </Box>
   </Box>
 </Box>
