@@ -8,7 +8,7 @@ export default function Home() {
       <>
       <Box >
       <Container textAlign={"center"} mt={"2%"}>
-      <Heading> <Fade> Detailed Course Syllabus</Fade></Heading>
+      <Fade> <Heading>  Detailed Course Syllabus</Heading> </Fade>
       </Container>
       <Fade delay={100}>
       <Container maxWidth={"4xl"} alignContent={"center"}>
