@@ -15,8 +15,9 @@ const HomePicture = () => {
 
 
         <Box className={styles.mainHeadingSet}  >
-        <Heading fontSize={["xs","xs","xl","4xl","5xl"]}>
+        <Slide direction='right'> <Heading fontSize={["xs","xs","xl","4xl","5xl"]}>
        < > In Karachi, Lahore, Islamabad, and Peshawar </>       </Heading>
+       </Slide>
         </Box>
         </Flex> 
         
