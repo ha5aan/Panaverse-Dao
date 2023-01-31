@@ -9,7 +9,7 @@ const CourseContent = () => {
 <Heading fontSize={"5xl"} className={styles.courseHeading}  mb={"2%"} mt={"1%"}><> The Program in Nutshell</></Heading>
 </Fade>
         {/* </Container> */}
-        <Fade>
+        <Fade  triggerOnce={true}>
         <Container maxWidth={"4xl"} fontSize="xl" fontWeight={"medium"}>
       < > In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.</> 
         </Container>
@@ -41,7 +41,7 @@ const CourseContent = () => {
 
 
 <Box mx={"2%"} my={"1%"}>
-  <Slide direction='right'>
+  <Slide direction='right'  triggerOnce={true}>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -63,7 +63,7 @@ const CourseContent = () => {
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <Slide>
+  <Slide  triggerOnce={true}>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner}>
     <Box className={styles.FlipCardFront}>
@@ -84,7 +84,7 @@ const CourseContent = () => {
 
 </Box>
 <Box mx={"2%"} my={"1%"}>
-  <Slide direction='right'>
+  <Slide direction='right' triggerOnce={true}>
         <Box className={styles.FlipCard}>
   <Box className={styles.FlipCardInner} >
     <Box className={styles.FlipCardFront}>
