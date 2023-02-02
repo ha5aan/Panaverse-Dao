@@ -1,24 +1,25 @@
 import { Accordion, Text,AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Container, Heading, List, ListItem, OrderedList, UnorderedList } from "@chakra-ui/react";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
-//import styles from "../styles/Course.module.css"
+import styles from "../styles/Course.module.css"
 
 export default function Home() {
     return (
       <>
-      <Box >
-      <Container textAlign={"center"} mt={"2%"}>
+      <Box className={styles.adjustingFooter}>
+      <Container textAlign={"center"} mt={"2%"} >
       <Fade> <Heading>  Detailed Course Syllabus</Heading> </Fade>
       </Container>
+      <Box className={styles.backgroundStyling}>
       <Fade delay={100}>
       <Container maxWidth={"4xl"} alignContent={"center"}>
-      <Accordion mt={"3%"}>
+      <Accordion className={styles.accordationBorderRadius}>
 
-      <AccordionItem  >
+      <AccordionItem className={styles.accordationBorderRadius} mb={"1%"}>
     <h2>
-      <AccordionButton bg={"rgb(233, 231, 231);"}>
+      <AccordionButton bg={"rgb(233, 231, 231);"} className={styles.accordationBorderRadius}>
         <Box as="span" flex='1' textAlign='center'>
-       <Heading  fontSize={"2xl"}>Quarter I (Core) </Heading>
+       <Heading  fontSize={["xl","2xl"]}>Quarter I (Core) </Heading>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -300,11 +301,11 @@ JavaScript promises, mastering the asynchronous
     </AccordionPanel>
   </AccordionItem>  
 
-<AccordionItem  >
+<AccordionItem  className={styles.accordationBorderRadius}  mb={"1%"} >
     <h2>
-      <AccordionButton bg={"rgb(233, 231, 231);"}>
+      <AccordionButton bg={"rgb(233, 231, 231);"} className={styles.accordationBorderRadius}>
         <Box as="span" flex='1' textAlign='center'>
-       <Heading  fontSize={"2xl"}>Quarter II (Core) </Heading>
+       <Heading  fontSize={["xl","2xl"]}>Quarter II (Core) </Heading>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -559,11 +560,11 @@ JavaScript promises, mastering the asynchronous
   </AccordionItem>
 
 
-  <AccordionItem  >
+  <AccordionItem className={styles.accordationBorderRadius}   mb={"1%"}>
     <h2>
-      <AccordionButton bg={"rgb(233, 231, 231);"}>
+      <AccordionButton bg={"rgb(233, 231, 231);"} className={styles.accordationBorderRadius}>
         <Box as="span" flex='1' textAlign='center'>
-       <Heading  fontSize={"2xl"}>Quarter III (Core) </Heading>
+       <Heading   fontSize={["xl","2xl"]}>Quarter III (Core) </Heading>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -818,11 +819,11 @@ JavaScript promises, mastering the asynchronous
   </AccordionItem>
 
 
-  <AccordionItem  >
+  <AccordionItem className={styles.accordationBorderRadius}   mb={"1%"} >
     <h2>
-      <AccordionButton bg={"rgb(233, 231, 231);"}>
+      <AccordionButton bg={"rgb(233, 231, 231);"} className={styles.accordationBorderRadius}>
         <Box as="span" flex='1' textAlign='center'>
-       <Heading  fontSize={"2xl"}>Quarter IV (Core) </Heading>
+       <Heading  fontSize={["xl","2xl"]}>Quarter IV (Core) </Heading>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -1080,6 +1081,7 @@ JavaScript promises, mastering the asynchronous
 </Accordion>
 </Container>
 </Fade>
+</Box>
 </Box>
       </>
     )

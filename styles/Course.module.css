@@ -1,3 +1,17 @@
 .adjustingFooter{
-    min-height: calc(100vh - 34px);
+    min-height: calc(90vh - 34px);
+
+}
+.backgroundStyling{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 3% 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px gray;
+
+}
+.accordationBorderRadius{
+    border-radius: 20px;
+
 }
