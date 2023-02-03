@@ -1,18 +1,24 @@
 .NavbarBackground{
-    background-color: rgb(233, 231, 231);
+    /* background-color: rgb(233, 231, 231); */
     display: flex;
     justify-content: space-between;
     width: 100%;
     bottom: 0;
-    height: 3rem;
-    margin-bottom: 0px;
+   
+    
 
-    position: relative;
-    left: 0;
-    bottom: 0;
-    margin-top: 4%;
+   
+    /* margin-top: 4%; */
     /* padding-bottom:60px; */
 
+}
+.fixPosition{
+    position: fixed;
+    /* left: 0; */
+    /* bottom: 0; */
+    height: 50px;
+    width: 99%;
+    bottom: 0;
 }
 .tabMenu{
     /* border: 1px solid red; */

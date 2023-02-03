@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <Box as="footer" role="contentinfo" mb={"0"} bg={"rgb(233, 231, 231)"}>
+    <Box as="footer"  role="contentinfo"  bg={"rgb(233, 231, 231)"} className={styles.fixPosition}>
     <HStack className={styles.NavbarBackground} >
   
     <Box className={styles.tabMenu} >
