@@ -5,8 +5,8 @@ import styles from "../styles/Course.module.css"
 
 export default function Home() {
     return (
-      <>
-      <Box className={styles.adjustingFooter}>
+      
+      <Box className={styles.adjustingFooter} width="100%" overflow={"hidden"}>
       <Container textAlign={"center"} mt={"2%"} >
       <Fade> <Heading>  Detailed Course Syllabus</Heading> </Fade>
       </Container>
@@ -1083,6 +1083,5 @@ JavaScript promises, mastering the asynchronous
 </Fade>
 </Box>
 </Box>
-      </>
     )
   }

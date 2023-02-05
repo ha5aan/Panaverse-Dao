@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal'
 
 const Admissions = () => {
   return (
-   <Box>
+   <Box style={{"minHeight":" calc( 100vh - 50px)"}}>
     <Heading fontSize={"3xl"}  textAlign={"center"} mb={"2%"} mt={"2%"}>Details regarding Admissions are as follows</Heading>
     <Fade delay={100} >
 <Container maxWidth={"2xl"}>
