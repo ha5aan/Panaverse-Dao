@@ -16,7 +16,7 @@ const changeHandler=()=>{
 
        <Box className={`${future ? styles.ancientBox : ' '}`}>
         <Flex justifyContent={"space-evenly"} mt="2%" flexDirection={["column","row"]} >
-          <Box width={["90%","30%"]}  textAlign="center"  className={`${future ? styles.fadeclassLeft : ' '}`}>
+          <Box width={["90%","30%"]}  textAlign="center"  className={`${styles.flexorderweb1} ${future ? styles.fadeclassLeft : ' '}`}>
 <Heading>What was Web 1 </Heading>
 <Text textAlign={"left"} mx={"2%"} mt="2%">
 It was only meant to make documents available, of which you could only read and not make changes. Web 1.0 was filled with static sites that only render resources to its interface that users can read.
@@ -54,12 +54,13 @@ Take a real-world dictionary, digitize everything in it, and make it accessible 
 
 
           </Box>
-          <Box width={["90%","30%"]} pt="10%"  textAlign="center"  className={`${future ? styles.futureOfMetaverse : ' '}`}>
+          <Box width={["90%","30%"]} pt="10%"  textAlign="center"  className={`${styles.flexorderweb3} ${future ? styles.futureOfMetaverse : ' '}`}>
           <Heading >Future of Metaverse </Heading>
-      <Text> Are You Ready ?</Text>
+      <Text color={"maroon"} fontWeight="bold"> Are You Ready ?</Text>
       <Button bg={"maroon"} color={"white"} onClick={()=>changeHandler()}>Yes I am</Button>
+      <Text fontSize={"small"} fontWeight={"bold"} mt="1%"> For previous Tecnology keep reading</Text>
           </Box>
-          <Box width={["90%","30%"]} textAlign="center" className={`${future ? styles.fadeclassRight : ' '}`}>
+          <Box width={["90%","30%"]} textAlign="center" className={`${styles.flexorderweb2} ${future ? styles.fadeclassRight : ' '}`}>
           <Heading>What is Web 2 </Heading>
           <Text textAlign={"left"} mx={"2%"} mt="2%">
           If Web 1.0 was called “the read-only Web,” Web 2.0 is known as “the participative social Web.” Web 2.0 is a better, more enhanced version of its predecessor, incorporating web browser technologies such as JavaScript frameworks.

@@ -231,7 +231,7 @@ animation-iteration-count: infinite;
         /* animation-name:hideWebPage ;
     animation-duration: 1s;
     transition-timing-function: ease-out; */
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: transform ease-out 1s;
     }
     .borderCheck{
@@ -244,5 +244,16 @@ animation-iteration-count: infinite;
         width: 90%;
 
         border-radius: 20px;
+    }
+    .flexorderweb1{
+        order: 2;
+    }
+    .flexorderweb2{
+        order: 3;
+    }
+    .flexorderweb3{
+        order: 1;
+        margin-bottom: 3%;
+
     }
     }
