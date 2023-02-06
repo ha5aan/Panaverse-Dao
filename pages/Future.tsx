@@ -14,7 +14,7 @@ const changeHandler=()=>{
   return (
     <Box className={styles.BackgroungHeightSet}>
 
-       <Box className={`${future ? styles.ancientBox : ' '}`}>
+       <Box className={`${future ? styles.ancientBox : ' '}`} height={"100vh"}>
         <Flex justifyContent={"space-evenly"} mt="2%" flexDirection={["column","row"]} >
           <Box width={["90%","30%"]}  textAlign="center"  className={`${styles.flexorderweb1} ${future ? styles.fadeclassLeft : ' '}`}>
 <Heading>What was Web 1 </Heading>
